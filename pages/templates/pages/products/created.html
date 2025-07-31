@@ -1,0 +1,10 @@
+
+
+{% extends 'pages/base.html' %}
+
+{% block content %}
+  <h1>Product created</h1>
+  <p>The product has been successfully created.</p>
+  <a href="{% url 'form' %}">Create another product</a> |
+  <a href="{% url 'home' %}">Return to home</a>
+{% endblock %}
